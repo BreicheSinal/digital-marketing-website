@@ -1,0 +1,23 @@
+.gradient-bgColor {
+  background: linear-gradient(to bottom, #21dada 0%, #35bbdf 50%, #4d94e5 100%);
+}
+
+.gradient-color {
+  color: linear-gradient(to bottom, #21dada 0%, #35bbdf 50%, #4d94e5 100%);
+}
+
+.whiteO-color {
+  background-color: rgb(255, 255, 255, 65%);
+}
+
+.linear-to-right {
+  background-image: linear-gradient(
+    to right,
+    #21dada 0%,
+    #35bbdf 50%,
+    #4d94e5 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}

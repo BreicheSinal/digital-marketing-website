@@ -1,0 +1,41 @@
+.hero-bg {
+  height: 100vh;
+}
+
+.navbar-container > button {
+  background-color: rgba(255, 255, 255, 0);
+  margin-left: 105px;
+}
+
+.navbar {
+  margin-right: 40px;
+  gap: 50px;
+}
+
+.hero-section > img {
+  margin-top: 35px;
+  margin-left: 60px;
+}
+
+.hero-section > div {
+  width: 65vw;
+  gap: 25px;
+}
+
+.title {
+  font-size: 70px;
+}
+
+.description {
+  font-size: 22px;
+  color: rgb(0, 0, 0, 50%);
+}
+
+.button {
+  border: none;
+  padding: 20px;
+  border-radius: 32px;
+  background-color: white;
+  align-self: flex-start;
+  letter-spacing: 2px;
+}
