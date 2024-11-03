@@ -1,7 +1,4 @@
-.hero-bg {
-  height: 100vh;
-}
-
+/* NAVBAR */
 .navbar-container > button {
   background-color: rgba(255, 255, 255, 0);
   margin-left: 105px;
@@ -12,13 +9,12 @@
   gap: 50px;
 }
 
-.hero-section > img {
-  margin-top: 35px;
-  margin-left: 60px;
+/* HERO SECTION */
+.hero-section {
+  height: 89vh;
 }
 
-.hero-section > div {
-  width: 65vw;
+.hero-section > div > div {
   gap: 25px;
 }
 
@@ -38,4 +34,23 @@
   background-color: white;
   align-self: flex-start;
   letter-spacing: 2px;
+}
+
+/* ABOUT SECTION */
+
+.about-section {
+  height: 80vh;
+}
+
+.about-section > div {
+  gap: 30px;
+  margin-left: 55px;
+}
+.about-title {
+  font-size: 36px;
+}
+
+.spacing {
+  letter-spacing: 3px;
+  line-height: 2;
 }
