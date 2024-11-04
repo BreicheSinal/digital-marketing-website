@@ -1,7 +1,7 @@
 /* NAVBAR */
 .navbar-container > button {
   background-color: rgba(255, 255, 255, 0);
-  margin-left: 105px;
+  margin: 5px 0px 5px 105px;
 }
 
 .navbar {
@@ -39,18 +39,18 @@
 /* ABOUT SECTION */
 
 .about-section {
-  height: 80vh;
+  height: 95vh;
+  margin: 0px 70px 0px 70px;
 }
 
 .about-section > div {
   gap: 30px;
-  margin-left: 55px;
 }
 .about-title {
   font-size: 36px;
 }
 
 .spacing {
-  letter-spacing: 3px;
-  line-height: 2;
+  letter-spacing: 3.5px;
+  line-height: 2.5;
 }
