@@ -282,6 +282,50 @@ input:checked + label .why-description {
   color: #555;
 }
 
+/*WHAT WE DELIVER SECTION*/
+.methodology-section {
+  margin: 0 auto;
+  padding: 40px 70px;
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.methodology-section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.methodology-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.methodology-item {
+  flex: 1 1 calc(25% - 20px);
+  margin: 10px;
+  padding: 20px;
+  background-color: #e9ecef;
+  border-left: 5px solid #007bff;
+  border-radius: 5px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.methodology-item h3 {
+  margin-top: 0;
+}
+
+.methodology-item p {
+  color: #555;
+}
+
+.methodology-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
 @media (max-width: 1300px) {
   .hamburger {
     display: block;
@@ -471,6 +515,10 @@ input:checked + label .why-description {
 
   .deliver-container {
     flex-direction: column;
+  }
+
+  .what-we-deliver-section {
+    height: 120vh;
   }
 }
 
