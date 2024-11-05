@@ -9,6 +9,29 @@
   gap: 50px;
 }
 
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.nav-link {
+  transition: 0.7s ease;
+}
+
+.nav-link:hover {
+  color: #35bbdf;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: black;
+}
+
 /* HERO SECTION */
 .hero-section {
   height: 89vh;
@@ -117,8 +140,168 @@
   transform: scale(1.03);
 }
 
+@media (max-width: 1300px) {
+  .hamburger {
+    display: block;
+    padding: 35px;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .navbar {
+    position: absolute;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    z-index: 1;
+  }
+
+  .nav-item {
+    margin: 6px 0;
+  }
+
+  .navbar.active {
+    left: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .navbar-container > button {
+    margin-left: 20px;
+  }
+
+  .navbar {
+    margin-right: 20px;
+    gap: 30px;
+  }
+
+  .hero-section {
+    height: 80vh;
+  }
+
+  .title {
+    font-size: 50px;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+
+  .button {
+    padding: 15px;
+  }
+
+  .about-section {
+    height: auto;
+    margin: 0px 30px;
+  }
+
+  .about-title {
+    font-size: 36px;
+  }
+
+  .spacing {
+    letter-spacing: 2px;
+    line-height: 2;
+  }
+}
+
 @media (max-width: 768px) {
+  .navbar-container > button {
+    margin-left: 10px;
+  }
+
+  .navbar p {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .hero-section {
+    height: 70vh;
+  }
+
+  .title {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .description {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .button {
+    align-self: center;
+    padding: 15px;
+  }
+
+  .about-section {
+    margin: 0px 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-section img {
+    width: 80%;
+    max-width: 300px;
+  }
+
+  .about-title {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .spacing {
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+  }
+
   .expertise {
     padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-container > button {
+    margin: 5px;
+  }
+
+  .navbar {
+    gap: 10px;
+  }
+
+  .hero-section {
+    height: 60vh;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .button {
+    padding: 12px;
+  }
+
+  .about-title {
+    font-size: 24px;
   }
 }
