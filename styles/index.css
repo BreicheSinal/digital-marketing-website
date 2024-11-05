@@ -535,7 +535,8 @@ input:checked + label .why-description {
   }
 
   .about-title {
-    font-size: 28px;
+    padding-top: 30px;
+    font-size: 25px;
     text-align: center;
   }
 
@@ -546,6 +547,10 @@ input:checked + label .why-description {
 
   .expertise {
     padding: 20px;
+  }
+
+  .heading {
+    font-size: 33px;
   }
 
   .why-container {
@@ -564,6 +569,10 @@ input:checked + label .why-description {
 
   .why-description {
     width: 100%;
+  }
+
+  .why-description > p {
+    font-size: 11px;
   }
 
   .deliver-container {
