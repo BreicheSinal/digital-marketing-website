@@ -137,6 +137,8 @@
   transform: scale(1.03);
 }
 
+/* WHY US SECTION*/
+
 @media (max-width: 1300px) {
   .hamburger {
     display: block;
