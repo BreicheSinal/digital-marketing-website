@@ -47,10 +47,78 @@
   gap: 30px;
 }
 .about-title {
-  font-size: 36px;
+  font-size: 45px;
 }
 
 .spacing {
   letter-spacing: 3.5px;
   line-height: 2.5;
+}
+
+/* EXPERTISE SECTION */
+
+.expertise {
+  padding: 50px 9%;
+}
+
+.expertise .heading {
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+  font-size: 45px;
+}
+
+.expertise .card-container {
+  display: grid;
+  min-height: 250px;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 15px;
+}
+
+.expertise .card-container .card {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background: #fff;
+  padding: 30px 20px;
+  padding: 40px 30px;
+  min-height: 250px;
+  border-radius: 8px;
+}
+
+.expertise .card-container .card h3 {
+  font-size: 20px;
+  padding: 10px 0;
+  text-transform: uppercase;
+}
+
+.expertise .card-container .card p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.9);
+  color: rgb(0, 0, 0, 50%);
+  font-size: 15px;
+  line-height: 1.8;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.expertise .card-container .card:hover p {
+  opacity: 1;
+}
+
+.expertise .cadr-container .card .btn:hover {
+  letter-spacing: 1px;
+}
+
+.expertise .card-container .card:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  transform: scale(1.03);
+}
+
+@media (max-width: 768px) {
+  .expertise {
+    padding: 20px;
+  }
 }

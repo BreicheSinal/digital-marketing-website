@@ -21,3 +21,11 @@
   background-clip: text;
   color: transparent;
 }
+
+.blackO {
+  color: rgb(0, 0, 0, 70%);
+}
+
+.black {
+  color: black;
+}
