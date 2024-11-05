@@ -78,3 +78,11 @@
 .bold {
   font-weight: bold;
 }
+
+.align-end {
+  align-items: flex-end;
+}
+
+.no-wrap {
+  flex-wrap: nowrap;
+}
