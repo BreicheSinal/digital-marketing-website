@@ -311,10 +311,10 @@ input:checked + label .why-description {
   color: #555;
 }
 
-/*WHAT WE DELIVER SECTION*/
+/*METHOLODOLGY SECTION*/
 .methodology-section {
   margin: 0 auto;
-  padding: 40px 70px;
+  padding: 40px 120px;
   background-color: white;
   border-radius: 8px;
 }
@@ -353,6 +353,7 @@ input:checked + label .why-description {
   transform: translateY(-5px);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
+
 /*CONTACT SECTION*/
 
 .let-connect-section {
@@ -360,6 +361,10 @@ input:checked + label .why-description {
   padding: 40px 20px 0px 20px;
   background-color: #ffffff;
   text-align: center;
+}
+
+.contact-container {
+  max-width: 850px;
 }
 
 .let-connect-section h2 {
@@ -582,6 +587,7 @@ input:checked + label .why-description {
   .what-we-deliver-section {
     height: 120vh;
   }
+
 }
 
 @media (max-width: 480px) {
