@@ -225,6 +225,8 @@ input:checked + label .why-description {
   transform: translateY(0) !important;
 }
 
+/*WHAT WE DELIVER SECTION*/
+
 @media (max-width: 1300px) {
   .hamburger {
     display: block;
