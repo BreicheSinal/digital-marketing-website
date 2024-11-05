@@ -140,7 +140,7 @@
 /* WHY US SECTION*/
 .why-us {
   width: 100%;
-  height: 100vh;
+  padding: 35px;
 }
 
 .wrapper {
@@ -148,6 +148,7 @@
   align-items: center;
   justify-content: center;
   padding: 20px;
+  overflow: hidden;
 }
 
 .why-container {
@@ -155,7 +156,6 @@
   flex-wrap: nowrap;
   justify-content: start;
   gap: 10px;
-  overflow-x: auto;
   height: 400px;
 }
 
@@ -170,7 +170,6 @@
   display: flex;
   align-items: flex-end;
   transition: 0.6s cubic-bezier(0.28, -0.03, 0, 0.99);
-  height: 100%;
 }
 
 .why-row {
@@ -264,6 +263,22 @@ input:checked + label .why-description {
   .navbar.active {
     left: 0;
   }
+
+  .container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .wcard {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  input:checked + label {
+    width: 100%;
+  }
+  .wcard > .row > .wdescription {
+    width: 100%;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -304,6 +319,24 @@ input:checked + label .why-description {
   .spacing {
     letter-spacing: 2px;
     line-height: 2;
+  }
+
+  .why-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .why-card {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  input:checked + label {
+    width: 100%;
+  }
+
+  .wdescription {
+    width: 100%;
   }
 }
 
@@ -360,6 +393,24 @@ input:checked + label .why-description {
   .expertise {
     padding: 20px;
   }
+
+  .why-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .why-card {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  input:checked + label {
+    width: 100%;
+  }
+
+  .why-description {
+    width: 100%;
+  }
 }
 
 @media (max-width: 480px) {
@@ -389,5 +440,24 @@ input:checked + label .why-description {
 
   .about-title {
     font-size: 24px;
+  }
+
+  .wrapper {
+    padding: 10px;
+  }
+
+  .why-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .why-card {
+    min-width: 100%;
+    margin: 5px 0;
+  }
+
+  input:checked + label {
+    height: 100%;
+    width: 100%;
   }
 }
