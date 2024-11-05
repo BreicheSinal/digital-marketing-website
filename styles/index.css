@@ -324,6 +324,31 @@ input:checked + label .why-description {
   transform: translateY(-5px);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
+/*CONTACT SECTION*/
+
+.let-connect-section {
+  margin: 40px auto 0px auto;
+  padding: 40px 20px 0px 20px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.let-connect-section h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.slogan {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 15px;
+}
+
+.description {
+  color: #555;
+  padding-bottom: 50px;
+}
 
 @media (max-width: 1300px) {
   .hamburger {
